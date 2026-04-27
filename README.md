@@ -58,10 +58,10 @@ The dataset contains trending video statistics across 10 regions: CA, DE, FR, GB
 
 ```
 YouTubeAnalyticsAndDataPipeline/
-├── S3-Commands.sh                            # AWS CLI commands to upload raw data to S3
-├── de-youtubeanalysis-lambda-json-parquet.py # Lambda function: JSON → Parquet
-├── de-youtubeanalysis-cleaned-csv-to-parquet.py # Glue ETL job: CSV → Parquet
-└── YouTubeAnalyticsDashboard.pdf             # Final QuickSight dashboard export
+├── S3-Commands.sh                            #AWS CLI commands to upload raw data to S3
+├── de-youtubeanalysis-lambda-json-parquet.py #Lambda function: JSON → Parquet
+├── de-youtubeanalysis-cleaned-csv-to-parquet.py #Glue ETL job: CSV → Parquet
+└── YouTubeAnalyticsDashboard.pdf             #Final QuickSight dashboard export
 ```
 
 ---
